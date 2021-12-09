@@ -1,0 +1,76 @@
+header{
+  display: inline-block;
+}
+
+h1{
+  font-size: 110px;
+}
+
+footer{
+    display: block;
+    margin-right: auto;
+    text-align: center;
+    clear: both;
+    position:absolute;
+    bottom:0;
+    width:99%;
+}
+
+.twotrucks{
+  width: 19020px;
+  margin: 0;
+}
+
+
+.test{
+  margin-left: 300px;
+  margin-top: -215px;
+  color: white;
+}
+
+.headereer{
+  background-color: black;
+  margin-top: -8px;
+}
+
+body{
+  font-family: Armata;
+  background: rgb(193,108,247);
+ background: linear-gradient(90deg, rgba(193,108,247,1) 0%, rgba(226,74,74,1) 50%, rgba(222,210,99,1) 100%);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 286px;
+  margin-left: -8px;
+  margin-top: 142px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 18px 0px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #000000;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.capybara{
+  height: 150px;
+  margin-left: -8px;
+}
